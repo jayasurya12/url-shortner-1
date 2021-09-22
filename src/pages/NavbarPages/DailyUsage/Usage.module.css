@@ -1,0 +1,14 @@
+.usage{
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 15px;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.usageName{
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.671);
+    text-align: center;
+}

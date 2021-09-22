@@ -1,0 +1,35 @@
+.verify{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.432);
+    padding: 10px;
+    border-radius: 5px;
+}
+.success{
+    background-color: rgba(21, 153, 21, 0.808);
+    text-align: center;
+    padding: 10px;
+    height:150px;
+}
+.success >svg{
+    font-size:-webkit-xxx-large !important;
+    color: white !important;
+    margin-top: 2%;
+}
+.body{
+    /* background-color: whitesmoke; */
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    color: rgba(32, 30, 30, 0.699);
+    font-weight: 700;
+    font-size: large;
+}
+.body >button{
+    margin-top: 10px;
+    background-color: rgba(17, 52, 206, 0.815) !important;
+    color: rgba(255, 255, 255, 0.774) ;
+}

@@ -1,0 +1,26 @@
+.profile{
+    padding: 20px;
+    background-color: rgba(196, 211, 174, 0.438);
+    margin-top: 1%;
+    width: 50%;
+    text-align: center;
+
+}
+.profile >button{
+    margin-top: 10px;
+    background-color: rgb(209, 125, 125) !important;
+}
+.email ,.createDate,.url{
+    display: flex;
+    background-color: rgba(245, 245, 245, 0.678);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:420px) {
+    .profile{
+        width: 90%;
+    }
+    .name{
+        font-size: xx-large !important;
+    }
+}

@@ -1,0 +1,64 @@
+.signupContainer{
+    background-color: #1d2c3a !important;
+    /* background:url('./tree.jpg') center center no-repeat fixed ; */
+    object-fit: contain;
+    background-size: 100%;
+
+}
+.form{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(250, 251, 252, 0.068);
+    width: 50%;
+    text-align: center;
+    margin:0 20% 0 20%;
+    transition: 0.5s;
+}
+.form:hover{
+    transition: 0.7s;
+    background-color: rgba(153, 167, 199, 0.822);
+}
+.userData{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.userData>div{
+    padding: 10px;
+}
+.userData input{
+    padding: 10px;
+    width: 100%;
+}
+.userData{
+    padding: 10px;
+}
+.btn{
+    width: 40%;
+    margin: 0 30% 0 30% !important;
+    /* padding: 10px; */
+    background-color: rgb(132, 132, 177) !important;
+}
+.btn:hover{
+    transition: 0.7s;
+    color: honeydew !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.login{
+    width: 30%;
+    background-color: rgb(233, 101, 61) !important;
+}
+.login:hover{
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, 
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+ @media screen and (max-width:800px) {
+     .form{
+         width: 50%;
+     }
+     .btn{
+         margin-top: 10%;
+     }
+ }

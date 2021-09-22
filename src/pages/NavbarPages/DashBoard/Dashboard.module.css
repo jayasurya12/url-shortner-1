@@ -1,0 +1,47 @@
+.longUrl{
+    width: 150px !important;
+}
+.longUrl>a{
+    text-decoration: none;
+    width: 100px !important;
+    cursor: pointer;
+}
+.tableContainer{
+    margin-top: 1%;
+    width: 98% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+.shorted>a{
+    text-decoration: none !important;
+    cursor: pointer;
+} 
+.shorted:hover{
+    background-color: rgb(233, 236, 245);
+    transition: 0.3s;
+    text-decoration: underline !important;
+}
+.longUrl:hover{
+    background-color: rgb(203, 211, 236) !important;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.table>.tableData{
+    max-width: 650px;
+}
+.tableRow{
+    background-color: #362F4B;
+    color: white!important;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0px;
+}
+.table{
+    margin-bottom: 10px;
+    width: 100%;
+}
+@media only screen and (max-width:700px){
+    .tableContainer{
+        font-size: small;
+    }
+}
